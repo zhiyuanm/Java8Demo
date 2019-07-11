@@ -28,6 +28,9 @@ public class MethodRefTest {
     @Test
     public void test1(){
 
+
+
+
     }
 
 }
