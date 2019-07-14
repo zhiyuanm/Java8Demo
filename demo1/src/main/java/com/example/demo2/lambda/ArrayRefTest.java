@@ -32,6 +32,8 @@ public class ArrayRefTest {
 //                return new String[0];
 //            }
 //        };
+
+
         Function<Integer, String[]> function = String[]::new;
         String[] apply = function.apply(10);
 

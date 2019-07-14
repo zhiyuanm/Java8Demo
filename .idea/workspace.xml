@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9770c3e1-fe33-457e-b249-adcbf5387f45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/Demo1Application.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/Demo1Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/bean/Employee.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/bean/Employee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/bean/EmployeeData.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/bean/EmployeeData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/exec/Demo1.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/exec/Demo1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/lambda/ArrayRefTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/ArrayRefTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/lambda/BaseTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/BaseTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/lambda/ConstructorRefTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/ConstructorRefTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/lambda/FunctionIntefaceTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/FunctionIntefaceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/lambda/MethodRefTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/MethodRefTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/stream/EndOptTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/stream/EndOptTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/stream/MidOptTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/stream/MidOptTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/stream/StreamStarmTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/stream/StreamStarmTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/ArrayRefTest.java" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/ArrayRefTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/demo1/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayRefTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayRefTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/ArrayRefTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MidOptTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MidOptTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/stream/MidOptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="396">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,6 +167,7 @@
         <option value="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/stream/MidOptTest.java" />
         <option value="$PROJECT_DIR$/demo1/src/main/java/com/example/demo1/stream/EndOptTest.java" />
         <option value="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/stream/MidOptTest.java" />
+        <option value="$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/ArrayRefTest.java" />
       </list>
     </option>
   </component>
@@ -296,6 +286,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java8Demo" type="b2602c69:ProjectViewProjectNode" />
@@ -654,7 +667,7 @@
       <workItem from="1562768989648" duration="4967000" />
       <workItem from="1562774894689" duration="40000" />
       <workItem from="1562857543275" duration="691000" />
-      <workItem from="1563075272017" duration="19619000" />
+      <workItem from="1563075272017" duration="19810000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;kmbk&quot;">
       <created>1562769084484</created>
@@ -670,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562774929833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;kmbk&quot;">
+      <created>1563121103463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563121103463</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -706,10 +726,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25317000" />
+    <option name="totallyTimeSpent" value="25508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -724,10 +745,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7133106" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.088737205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08020478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35325265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35325265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1008,16 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/ArrayRefTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/stream/StreamStarmTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1048,8 +1059,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/stream/MidOptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="396">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/src/main/java/com/example/demo2/lambda/ArrayRefTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
