@@ -1,4 +1,4 @@
-package com.example.demo1.stream;
+package com.example.demo2.stream;
 /**
  * 此类用于演示StreamAPI的使用步骤1：开始操作
  * @author liyuting

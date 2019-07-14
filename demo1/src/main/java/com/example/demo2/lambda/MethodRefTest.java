@@ -1,8 +1,6 @@
-package com.example.demo1.lambda;
+package com.example.demo2.lambda;
 
-import com.example.demo1.bean.Employee;
-import com.sun.org.apache.xpath.internal.SourceTree;
-import jdk.nashorn.internal.ir.FunctionCall;
+import com.example.demo2.bean.Employee;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;

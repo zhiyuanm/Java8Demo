@@ -1,4 +1,4 @@
-package com.example.demo1.lambda;
+package com.example.demo2.lambda;
 
 import org.testng.annotations.Test;
 

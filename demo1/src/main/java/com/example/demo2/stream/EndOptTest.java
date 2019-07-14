@@ -1,12 +1,11 @@
-package com.example.demo1.stream;
+package com.example.demo2.stream;
 
-import com.example.demo1.bean.Employee;
-import com.example.demo1.bean.EmployeeData;
+import com.example.demo2.bean.Employee;
+import com.example.demo2.bean.EmployeeData;
 import org.testng.annotations.Test;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.function.BinaryOperator;
 import java.util.stream.Stream;
 
 /**
