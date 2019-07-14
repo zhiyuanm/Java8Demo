@@ -1,6 +1,11 @@
 package com.example.demo1.lambda;
 
+
 import org.testng.annotations.Test;
+
+import java.util.*;
+import java.util.stream.Stream;
+
 /**
  *  @author    zhiyuan.ma
  *  @date      2019/7/10 23:17
@@ -18,11 +23,11 @@ import org.testng.annotations.Test;
  * 3.当方法体中只有一句话是，大括号可省略，若有一个return语句，return也可以省略
  *
  *
- *
+ *理解：对象的构造器中指定传递指定类型接口，所以lambda表达式的接口名不写
+ *      由于接口中只有一个方法，所以方法名也不写
  *
  */
 public class BaseTest {
-
 
     @Test
     public void test1(){
@@ -35,7 +40,6 @@ public class BaseTest {
         runnable1.run();
     }
 
-
     @Test
     public void test2(){
 
@@ -46,6 +50,33 @@ public class BaseTest {
         System.out.println("-------------");
         Thread thread1 = new Thread(()-> System.out.println("马志远"));
         thread1.start();
+    }
+
+    @Test
+    public void test3(){
+        Thread thread = new Thread(()->System.out.print("gfdhnj"));
+        thread.start();
+    }
+
+    @Test
+    public void test4(){
+
+        TreeSet<String> treeSet = new TreeSet<>(new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return 0;
+            }
+        });
+
+        TreeSet<String> treeSet2 = new TreeSet<>((o1,o2)->{
+            return o1.compareTo(o2);
+        });
+        treeSet2.add("h");
+        treeSet2.add("l");
+        treeSet2.add("a");
+        treeSet2.add("c");
+
+
     }
 
 }
