@@ -37,6 +37,7 @@ public class Employee implements Comparable<Employee>{
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
+	public Employee(){}
 	public Employee(int id, String name, int age, char gender, double salary) {
 		super();
 		this.id = id;
