@@ -65,7 +65,7 @@ public class OptionalMethod {
             }
         });
         optional.orElseGet(()->"jfdsgg");
-
+        System.out.println("nknj");
         System.out.println(str);
     }
 
