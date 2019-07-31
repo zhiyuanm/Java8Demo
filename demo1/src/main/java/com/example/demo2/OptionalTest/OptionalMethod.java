@@ -72,6 +72,7 @@ public class OptionalMethod {
     @Test
     public void test3(){
         Optional<String> optional = Optional.ofNullable("abc");
+
         boolean present = optional.isPresent();
         System.out.println(present);
         optional.ifPresent(new Consumer<String>() {
