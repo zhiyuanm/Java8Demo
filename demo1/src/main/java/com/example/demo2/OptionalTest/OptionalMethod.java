@@ -64,6 +64,7 @@ public class OptionalMethod {
                 return "bjfdj";
             }
 
+
         });
         optional.orElseGet(()->"jfdsgg");
         System.out.println("nknj");
