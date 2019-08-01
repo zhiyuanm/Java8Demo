@@ -52,6 +52,7 @@ public class ObjectsTeest {
         String str2= "";
         System.out.println(Objects.deepEquals(str1,str2));
         boolean equals = Objects.equals(null, "");
+
         System.out.println(equals);
     }
 }

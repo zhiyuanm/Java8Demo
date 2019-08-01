@@ -47,7 +47,6 @@ public class MethodRefTest {
     //对象调普通方法
     @Test
     public void test1(){
-
         Consumer<String> consumer = System.out::println;
         consumer.accept("fsdkngjksfnj");
     }

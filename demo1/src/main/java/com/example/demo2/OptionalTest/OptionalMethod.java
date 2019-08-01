@@ -8,6 +8,7 @@ import sun.management.counter.Variability;
 import javax.swing.text.html.Option;
 import javax.xml.bind.SchemaOutputResolver;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
@@ -30,6 +31,11 @@ import java.util.function.Supplier;
  * https://blog.csdn.net/B9Q8e64lO6mm/article/details/79029880
  */
 public class OptionalMethod {
+    public void test6(){
+
+        List<Object> objects = Collections.emptyList();
+
+    }
 
     @Test
     public void test5(){
@@ -50,6 +56,7 @@ public class OptionalMethod {
             }
         });
         Optional<Integer> integer1 = list1.map(employees -> employees.size());
+
         System.out.println(integer1.get());
 
     }
@@ -75,7 +82,6 @@ public class OptionalMethod {
     @Test
     public void test3(){
         Optional<String> optional = Optional.ofNullable("abc");
-
         boolean present = optional.isPresent();
         System.out.println(present);
         optional.ifPresent(new Consumer<String>() {
@@ -84,6 +90,18 @@ public class OptionalMethod {
 
             }
         });
+
+
+        //若不为空就返回原理的值，若为空就操作返回方法返回值
+        optional.orElseGet(new Supplier<String>() {
+            @Override
+            public String get() {
+                return null;
+            }
+        });
+        //若不为空就返回原来只，若为空就返回参数值
+        String ma = optional.orElse("ma");
+        //若不为空，就操作
         optional.ifPresent(s->System.out.println(s));
         optional.ifPresent(System.out::print);
 
