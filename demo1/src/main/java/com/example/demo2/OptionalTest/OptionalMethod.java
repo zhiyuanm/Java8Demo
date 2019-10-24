@@ -1,16 +1,14 @@
 package com.example.demo2.OptionalTest;
 
 import com.example.demo2.bean.Employee;
+import com.example.demo2.bean.User;
 import com.sun.corba.se.impl.orbutil.ObjectStreamClassUtil_1_3;
 import org.testng.annotations.Test;
 import sun.management.counter.Variability;
 
 import javax.swing.text.html.Option;
 import javax.xml.bind.SchemaOutputResolver;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -28,13 +26,39 @@ import java.util.function.Supplier;
  * get()：获取值
  * of:参数必须比为空，否则抛出空指针异常
  * ofNullable：参数可以为空，也可以不为空
+ * filter:参数不能为空，否则空指正异常
  * https://blog.csdn.net/B9Q8e64lO6mm/article/details/79029880
  */
 public class OptionalMethod {
+
+
+    @Test
     public void test6(){
+        String str = null;
+        // Optional.ofNullable(str).filter();
+        String s = Optional.ofNullable(str).filter(u -> Objects.deepEquals("mazhiyuan", str))
+                .orElse("haha");
+        System.out.println(s);
 
-        List<Object> objects = Collections.emptyList();
 
+
+        /* 繁琐的代码使用Optional重构
+        User user = new User();
+        user.setName("mazhiyuan");
+        if(user != null){
+            String name = user.getName();
+            if("mazhiyuan".equals(name)){
+                System.out.println(name);
+            }
+        }else{
+            User user2 = new User();
+            user2.setName("mazhih");
+            String name = user2.getName();
+            System.out.println(name);
+        }*/
+        /*User user = new User();
+        user.setName("mazhiyuan");
+        Optional.ofNullable(user).ifPresent("mazhiyuan".equals(user.getName()));*/
     }
 
     @Test

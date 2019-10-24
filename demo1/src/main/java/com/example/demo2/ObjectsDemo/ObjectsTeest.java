@@ -1,6 +1,7 @@
 package com.example.demo2.ObjectsDemo;
 
 import com.example.demo2.bean.Employee;
+import com.example.demo2.bean.User;
 import org.testng.annotations.Test;
 import sun.font.TrueTypeFont;
 
@@ -13,6 +14,10 @@ import java.util.Objects;
  */
 public class ObjectsTeest {
 
+    @Test
+    public void test5(){
+        String s = Objects.requireNonNull("");
+    }
 
     @Test
     public void test4(){

@@ -30,6 +30,17 @@ import java.util.stream.Stream;
 public class BaseTest {
 
     @Test
+    public void test0(){
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("xxxxxxx");
+            }
+        };
+        Runnable runnable1 = () ->System.out.println("xxxx");
+    }
+
+    @Test
     public void test1(){
 
         Runnable runnable = ()->{
