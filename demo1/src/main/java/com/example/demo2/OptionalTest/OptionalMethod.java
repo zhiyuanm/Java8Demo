@@ -24,7 +24,7 @@ import java.util.function.Supplier;
  * map(Function)
  * flatMap()：
  * get()：获取值
- * of:参数必须比为空，否则抛出空指针异常
+ * of:参数必须不为空，否则抛出空指针异常
  * ofNullable：参数可以为空，也可以不为空
  * filter:参数不能为空，否则空指正异常
  * https://blog.csdn.net/B9Q8e64lO6mm/article/details/79029880
@@ -34,7 +34,7 @@ public class OptionalMethod {
 
     @Test
     public void test6(){
-        String str = null;
+        String str = "mazhiyuan";
         // Optional.ofNullable(str).filter();
         String s = Optional.ofNullable(str).filter(u -> Objects.deepEquals("mazhiyuan", str))
                 .orElse("haha");
@@ -151,8 +151,4 @@ public class OptionalMethod {
         Optional<String> optional = Optional.ofNullable("nfdksnjf");
         System.out.println(optional.get());
     }
-
-
-
-
 }

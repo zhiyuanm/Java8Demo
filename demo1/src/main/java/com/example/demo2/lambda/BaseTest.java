@@ -3,8 +3,8 @@ package com.example.demo2.lambda;
 
 import org.testng.annotations.Test;
 
-import java.util.*;
-import java.util.stream.Stream;
+import java.util.Comparator;
+import java.util.TreeSet;
 
 /**
  *  @author    zhiyuan.ma
@@ -53,7 +53,6 @@ public class BaseTest {
 
     @Test
     public void test2(){
-
         Thread thread  = new Thread(()->{
             System.out.println("sgjsfjgf");
         });
@@ -62,7 +61,6 @@ public class BaseTest {
         Thread thread1 = new Thread(()-> System.out.println("马志远"));
         thread1.start();
     }
-
     @Test
     public void test3(){
         Thread thread = new Thread(()->System.out.print("gfdhnj"));
@@ -71,14 +69,12 @@ public class BaseTest {
 
     @Test
     public void test4(){
-
         TreeSet<String> treeSet = new TreeSet<>(new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {
                 return 0;
             }
         });
-
         TreeSet<String> treeSet2 = new TreeSet<>((o1,o2)->{
             return o1.compareTo(o2);
         });
@@ -86,8 +82,6 @@ public class BaseTest {
         treeSet2.add("l");
         treeSet2.add("a");
         treeSet2.add("c");
-
-
     }
 
 }
